@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #fdd9a0;
+    padding: 0.5rem 0; 
+    border-bottom: 3px solid #fbbf77;
+  }
+  
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .logo {
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1rem;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #924f16;
+    margin: 0;
+    flex: 1;
+  }
+
+  .nav {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .nav a:hover {
+    color: #c87100;
+  }
+  
+  .pagina-info {
+    background-color: #fff8f0;
+    padding-bottom: 4rem;
+  }
+  
+  .info-header {
+    background-color: #fff1e6;
+    padding: 3r0m 0;
+    text-align: center;
+  }
+  
+  .info-header h2 {
+    font-size: 2.5rem;
+    color: #924f16;
+    margin-bottom: 1rem;
+  }
+  
+  .info-header p {
+    font-size: 1.1rem;
+    color: #5c3b1e;
+  }
+  
+  .info-contenido {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .info-contenido article {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .info-contenido h3 {
+    font-size: 1.6rem;
+    color: #cf6600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .info-contenido p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .footer {
+    background-color: #fdd9a0;
+    padding: 1rem 0;
+    text-align: center;
+    border-top: 3px solid #fbbf77;
+  }
+  
+  .footer p {
+    margin-bottom: 1rem;
+    color: #5c3b1e;
+  }
+  
+  .social-icons a {
+    color: #000000;
+    margin: 0 0.5rem;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #d25b00;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
